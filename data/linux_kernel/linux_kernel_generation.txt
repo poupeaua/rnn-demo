@@ -1,0 +1,258 @@
+
+----- Generating text after Epoch : 0
+
+ray to return the result into
+ *
+ * get security the font int int ate the pare the int int int int int int int at the the the struct struct struct struct state to the security struct state to the security the security the the the the the the the the the security */
+			 * the security the security struct state to the the security the security struct int rent at int int at ont int int int int ind the security the the security the security
+
+----- Generating text after Epoch : 1
+
+de_post_setxattr, selinux_inode_post_seturity, selinux_sec_returne_security_struct *skessec = task_security_struct *state * * security_str conte to the security on the security on the security on the size to in the security on the security on the sich security on the pace security to security on the the security on the size the to the the security on the sis on the size the in the sick the security of the size the security on the in the
+
+----- Generating text after Epoch : 2
+
+info, callout_len, aux, dest_keyring, flags);
+		struct pati_erroc_security_struct *tressection_security_struct *skessec = selinux_state_security_security_security_struction_security_struct *skess_const char *cache_info.
+			state->instarc;
+			return -einval;
+
+----- Generating text after Epoch : 3
+
+o_wide(pdc_result);
+	pdc_coproc_info->ccress_chp_poutity = null;
+			break;
+		case dentry_table_parest_mation_mapker,
+
+----- Generating text after Epoch : 4
+
+decision_lookup(driver, xp_node);
+	if (unlink)
+		return -einval;
+	unsigned long flags;
+
+----- Generating text after Epoch : 5
+
+	unsigned char type1;
+
+	if (mk_conf_addr && (struct pdc_context_mod_info) {
+		struct pci_dev *ptr = null;
+			break;
+	case pf_pdt_copfix:
+			return -einval;
+			state->dent = hask_size = state->words[0];
+		case __path:
+			break;
+		case pf_info:
+
+----- Generating text after Epoch : 6
+
+_security_class(mode),
+					   &newsid);
+	if (rc)
+		return rc;
+	return rc;
+}
+
+static int selinux_socket_getsecurity_struct(dev, enf));
+	return null;
+}
+
+/**
+ * pdc_pat_infor - return buffer arout the parisc device structurn the call */
+				if (!state) {
+					case dw_cfa_reg_startele:
+
+----- Generating text after Epoch : 7
+
+((val)>>(bits)) != (((__typeof__(val))(~(((u16))
+
+----- Generating text after Epoch : 8
+
+rintf(uid_str, "%d", from_kuid(&init_user_load);
+	aa_bug(!match_parent);
+	aa_bug(!pate);
+	aa_bug(!match_parenc);
+	audit_log_format(ab, " strint " returns: to levered of the label.
+ * @callout_label to returns the path the to the instantiate to the parisction to the permissions and the parisction to the parent pointer to the initialize to returns the path in the instantiate a dist net and of the return buffer context to the options */
+	r
+
+----- Generating text after Epoch : 9
+
+ddress of soft power register
+ *
+ * return pache the called by the path for
+ * setup stack are authorimation and one the
+ *
+
+----- Generating text after Epoch : 10
+
+c = loc;
+					state->label = label;
+						regstr(ent_index].w_indth + 1 */*/**th_p = pdc_pat_countext_mount_post_nsw_node;
+			security_context_sid();
+				if (!request) {
+					return err;
+			}
+			return err;
+			}
+			return err;
+		}
+		return err;
+
+		/* in the accesses entry in the security load allocate a search state a complete to the free softwarn no allocate a desc interrupt that it in the process with a key is a sise we can lead when
+
+----- Generating text after Epoch : 11
+
+_size);
+	return 0;
+}
+
+struct tpm_digests */
+
+static void __init
+prevmatt_rage(struct aa_ns *ns)
+{
+	int err;
+
+	if (selinux_socket_sock_reversec)
+		if (str) {
+		case sizeof(u32 bide)
+{
+	case sest_station_init(keyring);
+	key_ref_tckey_arror(key_arc_type, &addr);
+
+	return ret;
+}
+
+/**
+ * aa_fse conninues a complest of the label in the parisc the parent support the parterned ald pointer then be indexe the device in the processor the cerr sock
+
+----- Generating text after Epoch : 12
+
+ *create_parisc_device(struct hardware_path *mod,
+
+----- Generating text after Epoch : 13
+
+return avc_has_perm(&selinux_state,
+				   sid, secclass_process,
+				   sid, secclass_dcr,
+				    secclass_netify, &secidist_called, &selinux_state,
+						   secclass_process, pci_avm_dentry))
+		return rc;
+}
+
+/* check areapailing a security called in the security location and the kernel confing */
+static int selinux_socket_big(struct sock *sk, struct sk_security_struct *sb, struct sk_security_struct *sbsec, struct sk_security_struct *
+
+----- Generating text after Epoch : 14
+
+sr  = saved_config[index].tba[2];
+
+	port->wsba[2].csr = 0;
+	chas - sock;
+	list_de(value, state);
+	if (ret < 0)
+		goto out;
+	}
+
+	return 0;
+}
+
+static int selinux_socket_getsecid(toregs)
+{
+	struct key *key_ref;
+
+	ret = crypto_read_security(struct key *key, char *outrest)
+{
+	struct aa_label *label = aa_get_ns(null);
+	if (ret < 0)
+		goto out;
+	}
+
+	return 0;
+}
+
+static int selinux_module_msgsid(struct avc_node *p)
+{
+	struct path_ptr commontsud
+----- Generating text after Epoch : 15
+p://www.parisc-linux.org/documentation/interrupts_size.
+	 *
+	 * this pdc call returns the new key to outcontextion
+			 * an avc_compute_name */
+		if (selinux_policycap_netice_intex)
+			struct aa_profile *profile;
+			struct aa_profile *p;
+				break;
+			case dw_ecf__delabl_offer:
+					break;
+			case dw_eh_pe_device_shit_perm:
+									      secclass_parked, secclass_page, path.fs_file), from_info);
+	}
+
+	if (cap_enabled(config_stable.path.----- Generating text after Epoch : 16
+,
+			    bpf_map_fmode_to_av(fmode), null);
+	if (rc)
+		return rc;
+
+	rc = avc_has_perm(&selinux_state,
+				  sid, isec->sid, new);
+		if (rc)
+			return rc;
+		}
+	}
+
+	if (selinux_parse_context(struct file *file, const char *name, unsigned long flags)
+{
+	struct cred *cred = current_sid();
+	int rc;
+
+	if (selinux_policycap_entry(ptr, ent);
+		perm = ptr_err(struct dev red);
+				state->create = field_c(calssid, ff, fill);
+		if (rc)
+			return rc;----- Generating text after Epoch : 17
+*
+ * check that a process has enough memory in avcount the label forsed of the case with the
+ *   o  path mode to the path i/
+	 * set pc  paresct.  */
+	struct parisc_device * __device_interrupt = 0;
+
+	/* check the cache any link it is the langl the instantiate data for the file of the specified address to endriction
+ *   of the packet stated.
+ */
+
+#include <asm/pagesmacheh.h>
+#include <asm/pdcpat..h>
+#include <asm/pdc_mode.h>
+#include <----- Generating text after Epoch : 18
+ (dest->used & xperms_allowed)
+		memcpy(new_opt, peermsid, selinux_inode_free),
+	lsm_hook_init(secmark_aved_file, selinux_inode_create),
+	lsm_hook_init(sb_free, selinux_inode_setsecctx),
+	lsm_hook_init(inode_semstries, selinux_inode_involisec,
+				seq_profile_fo_note))
+			return -einval;
+			if (!context) {
+					if (!strtant_sid & 0xfffff, ns)->dir->ase. wast algashesters. and->name
+				of (inode_aa_avm(&pa_end->lock));
+			state->instr_l----- Generating text after Epoch : 19
+pdc_system_map
+ * call.
+ *
+ * this call fsate a peerms the setented parto an actiase.
+ * @statk_alpoad (struct up in user, no = dir)
+{
+	struct aa_profile *profile;
+	char *name = null;
+	int null;
+	if (dir = start + _hesets);
+		if (ret < 0)
+				return -einval;
+			if (!state)
+				case dw_efffr_enc_sy:tem_offset:
+			return secclass_setpto_socket;
+		case pf_idcantl:
+			/* sid be allow that instantiate add the generic permission context of a 

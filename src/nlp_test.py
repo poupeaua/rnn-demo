@@ -17,7 +17,7 @@ def nlp_test():
     print("\nThe configuration for the test session is :\n", config)
 
     # load the text on which the model had been trained
-    with open(config["text"], encoding='utf-8') as f:
+    with open(config["text"]) as f:
         text = f.read().lower()
 
     # extract some variables needed for the test
@@ -29,7 +29,7 @@ def nlp_test():
     indices_char = dict((i, c) for i, c in enumerate(chars))
 
     # load the pre-trained model
-    model = load_model(config["loaded_model"])
+    model = load_model(config["load_model"])
 
     # beggining of the test
     start_index = random.randint(0, len(text) - time_steps - 1)

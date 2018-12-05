@@ -20,12 +20,12 @@ def analyse_nlp_train():
     parser.add_argument('--save_model', type=str, help=
         "String defining the .h5 file where the configuration of the trained \
         model will be stored.", required=True)
-    parser.add_argument('--loaded_model', type=str, help=
+    parser.add_argument('--load_model', type=str, help=
         "String defining the .h5 file that contains the configuration of a \
         pre-trained model to re-train it and make it even better.")
     parser.add_argument('--gen_text', type=str, help=
         "String defining the .txt file where the text generated after each \
-        epoch will be stored.")
+        epoch will be stored. Useful to get an idea of how the model learns.")
     parser.add_argument('--cell', type=str, default="LSTM", choices=
         ["SimpleRNN", "LSTM", "GRU"], help=
         "String defining the type of cell use in the RNN.")
@@ -38,11 +38,11 @@ def analyse_nlp_train():
     parser.add_argument('--step', type=int, default=3, help=
         "Integer defining the step each sentence and expected character for \
         the training.")
-    parser.add_argument('--epochs', type=int, default=20, help=
+    parser.add_argument('--epochs', type=int, default=1, help=
         "Integer defining the number of iteration on the whole provided text to\
          train the model.")
     parser.add_argument('--batch_size', type=int, default=128, help=
-        "Integer defining the size of a batch.")
+        "Integer defining the size of batches for training.")
     parser.add_argument('--nb_char', type=int, default=400, help=
         "Integer defining the number of characters generated after each epochs \
         to follow the model optimization.")
@@ -68,7 +68,7 @@ def analyse_nlp_test():
     # the first two arguments are REQUIRED
     parser.add_argument('--text', type=str, help=
         "String defining the .txt file as the text database.", required=True)
-    parser.add_argument('--loaded_model', type=str, help=
+    parser.add_argument('--load_model', type=str, help=
         "String defining the model configuration .h5 file" , required=True)
     parser.add_argument('--nb_char', type=int, default=400, help=
         "Integer defining the number of characters generated during the \
@@ -77,7 +77,7 @@ def analyse_nlp_test():
         "Float number that defines the diversity of the generated characters. \
         The bigger the temperature, the higher rate of diversity.")
     parser.add_argument('--time_steps', type=int, default=40, help=
-        "")
+        "Has to be the same as the one used in nlp_train.py.")
     config = vars(parser.parse_args())
     return config
 

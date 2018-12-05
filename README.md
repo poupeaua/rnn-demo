@@ -1,26 +1,28 @@
-RNN projet sur le Natural Language Processing (NLP)
+# RNN project on Natural Language Processing (NLP)
 
-Créer un répertoire dans data puis :
+## Information
 
-1) Entrainer un modèle :
-  Créer un fichier texte .txt contenant au moins 100K caracteres.
-  Créer un fichier .h5 vide pour enregistrer la configuration du modèle
-  après entrainement.
+- Environnement : Python (2 or 3)
+- Libraries : Tensorflow | Keras
 
-  Lancer le programme python3 nlp_train.py avec pour arguments:
-    --text "nom du fichier .txt"
-    --save_model "nom du fichier .h5"
+## Train a model :
 
-  N.B: Le modèle est sauvegardé à chaque epoch !
+  Create a directory in data/ and then :
+  Create a [name].txt file with at least 100K characters in it.
+  Create an empty [name].h5 file to save the model configuration as it trains.
 
-  Il est bien entendu possible d'entrainer un modèle pré-entrainer, voir
-  l'argument --loaded_model.
+  Run nlp_train.py with the following arguments :
+    --text [name].txt
+    --save_model [name].h5
 
+  N.B: The model is saved automatically after each epoch !
 
+  It is obviously possible to train a pre-trained model by using the arguments --load_model.
 
-2) Tester son modèle :
-  Lancer le programme python3 nlp_test.py avec pour arguments:
-    --text "nom du fichier .txt"
-    --loaded_model "nom du fichier .h5"
+## Test a model :
 
-  Enjoy !
+  Run nlp_test.py with the following arguments :
+    --text [name].txt
+    --load_model [name].h5
+
+Enjoy !

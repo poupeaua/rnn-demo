@@ -23,8 +23,7 @@ def nlp_train():
     print('\nThe configuration for the training session is :\n', config)
 
     print("\n1) Getting the text sample...")
-    input()
-    with open(config["text"], encoding='utf-8') as f:
+    with open(config["text"]) as f:
         text = f.read().lower()
     print('corpus length:', len(text))
 
@@ -46,7 +45,6 @@ def nlp_train():
     print('nb sequences:', training_size)
 
     print('\n2) Vectorization...\n')
-    input()
     # creating empty placeholders for x and y, the expected character
     x = np.zeros((training_size, time_steps, vocab_size), dtype=np.bool)
     y = np.zeros((training_size, vocab_size), dtype=np.bool)
@@ -70,9 +68,8 @@ def nlp_train():
     hidden_state_size = config["hidden_state_size"]
 
     print('\n3) Build model...\n')
-    input()
 
-    if config["loaded_model"] is None:
+    if config["load_model"] is None:
         # build a fresh new model
         model = Sequential()
         if config["cell"] == "SimpleRNN":
@@ -88,8 +85,8 @@ def nlp_train():
         model.add(Activation('softmax'))
     else:
         # re-use a pre-trained model to train it more
-        print("Loaded model from the", config["loaded_model"], "file.")
-        model = load_model(config["loaded_model"])
+        print("Loaded model from the", config["load_model"], "file.")
+        model = load_model(config["load_model"])
 
     # summarize all the trainable parameters of the model and its configuration
     model.summary()
